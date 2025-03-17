@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"example.com/kyu_ar/api"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	api.AppServer.Run("localhost:8080")
 }
